@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="batch and model import" max_length="40" name="x_58872_needit_batch_and_model_import" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cas number" label="Cas number " max_length="40" name="u_cas_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Department" label="Department " max_length="40" name="u_department" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Location" label="Location " max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Manufacturer" label="Manufacturer" max_length="40" name="u_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Model ID" label="Model ID " max_length="40" name="u_model_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Owned by" label="Owned by " max_length="40" name="u_owned_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Owner" label="Owner" max_length="40" name="u_owner" type="string"/>
+        <element attributes="import_attribute_name=Quantity" label="Quantity " max_length="40" name="u_quantity" type="integer"/>
+        <element attributes="import_attribute_name=Quantity minimum" label="Quantity minimum" max_length="40" name="u_quantity_minimum" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=risk" label="risk" max_length="40" name="u_risk" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Stockroom" label="Stockroom " max_length="40" name="u_stockroom" type="string"/>
+    </element>
+</database>
